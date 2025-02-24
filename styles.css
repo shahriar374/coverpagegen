@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.form-section,
+.preview-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input,
+button {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.design-option {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+}
+
+.design-option.active {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background: #022288;
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* Style 1 */
+#style1 {
+    color: #01215A;
+    font-size: 22px;
+    border: 5px solid #1B3A68;
+    margin: 40px;
+    padding: 30px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.course-box {
+    margin-bottom: 20px;
+}
+
+.course-box p {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.topic-box {
+    border: 4px solid #01215A;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px;
+    max-width: 450px;
+    text-align: center;
+    line-height: normal;
+}
+
+.info-box {
+    text-align: center;
+    color: #000;
+}
+
+.info-box h3 {
+    color: #01215A;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-date {
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #1b3a68;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#instPreview {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+/* Responsive CSS */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles and Tabs (Portrait)
+  ##Screen = B/w 320px to 1024px
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    #coverForm {
+        padding: 20px;
+    }
+  
+    #mobile-warning {
+        text-align: center;
+        display: block!important;
+        background-color: yellow;
+        color: red;
+        font-weight: 600;
+    }
+    
+}
