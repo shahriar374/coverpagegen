@@ -91,7 +91,7 @@ window.addEventListener('load', function () {
 });
 
 // Logo change
-let selectedImageSrc = '/gblogo.png'; // Default image source
+let selectedImageSrc = 'https://raw.githubusercontent.com/shahriar374/coverpagegen/refs/heads/main/gblogo.png'; // Default image source
 
 document.getElementById('instImg').addEventListener('change', function (event) {
     const file = event.target.files[0];
