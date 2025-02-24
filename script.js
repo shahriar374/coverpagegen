@@ -91,7 +91,7 @@ window.addEventListener('load', function () {
 });
 
 // Logo change
-let selectedImageSrc = 'https://raw.githubusercontent.com/shahriar374/coverpagegen/refs/heads/main/gblogo.png'; // Default image source
+let selectedImageSrc = 'gblogo.png'; // Default image source
 
 document.getElementById('instImg').addEventListener('change', function (event) {
     const file = event.target.files[0];
@@ -152,7 +152,7 @@ function debounce(func, wait) {
     };
 }
 
-const debouncedGenerateCover = debounce(generateCover, 300);
+const debouncedGenerateCover = debounce(generateCover, 2000);
 
 // Replace event listeners in this format 
 document.getElementById("reportType").addEventListener("input", debouncedGenerateCover);
